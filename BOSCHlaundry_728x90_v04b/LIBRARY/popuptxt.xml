@@ -19,7 +19,7 @@
                     <Edge fillStyle1="1" edges="!5721 2900|340 2900!340 2900|340 2240!340 2240|5721 2240!5721 2240|5721 2900"/>
                   </edges>
                 </DOMShape>
-                <DOMSymbolInstance libraryItemName="txt11" selected="true">
+                <DOMSymbolInstance libraryItemName="txt11" selected="true" centerPoint3DX="3.05" centerPoint3DY="0.25">
                   <matrix>
                     <Matrix tx="-114.15" ty="-11.8"/>
                   </matrix>

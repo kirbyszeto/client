@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="learnBtn" itemID="48ff6dce-00000037" lastModified="1224706167">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="learnBtn" itemID="48ff6dce-00000037" lastModified="1354812510">
   <timeline>
     <DOMTimeline name="learnBtn">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="77.15" height="22.1" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="76.1" height="24" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix a="1.00015258789063" d="0.9979248046875" tx="2" ty="2"/>
                   </matrix>
@@ -14,19 +14,19 @@
                     <DOMTextRun>
                       <characters>»</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" bold="true" letterSpacing="-0.45" size="19.8" face="Bosch Sans" fillColor="#ED1C24"/>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-0.45" size="19.8" bitmapSize="396" face="DIN-Light" fillColor="#ED1C24"/>
                       </textAttrs>
                     </DOMTextRun>
                     <DOMTextRun>
                       <characters> </characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" letterSpacing="-0.45" size="13.25" face="Bosch Sans" fillColor="#505050"/>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-0.45" size="13.25" bitmapSize="265" face="DIN-Light" fillColor="#505050"/>
                       </textAttrs>
                     </DOMTextRun>
                     <DOMTextRun>
                       <characters>Learn More</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" bold="true" letterSpacing="-0.45" size="13.25" face="Bosch Sans" fillColor="#00639F"/>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-0.45" size="13.25" bitmapSize="265" face="DIN-Light" fillColor="#00639F"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

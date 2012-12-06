@@ -84,6 +84,8 @@
 			
 			tMan.to(pan_mc, "y", positions[pan_mc], 4, Regular.easeInOut, null, 1);
 			
+			// testing commit.
+			
 			//fMan.stop();
 		} 
 		public function frame_2() { // POP TEXT

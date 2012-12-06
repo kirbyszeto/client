@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="txt1" itemID="48ff8279-00000060" lastModified="1224712726">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="txt1" itemID="48ff8279-00000060" lastModified="1354812563">
   <timeline>
     <DOMTimeline name="txt1">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMStaticText width="428.15" height="13.35" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="423" height="14.55" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix a="1.00010681152344" tx="3" ty="2"/>
                   </matrix>
@@ -14,31 +14,31 @@
                     <DOMTextRun>
                       <characters>Visit your local Bosch dealer and get up t</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" bold="true" letterSpacing="-0.5" face="Bosch Sans" fillColor="#505050"/>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-0.5" bitmapSize="240" face="DIN-Light" fillColor="#505050"/>
                       </textAttrs>
                     </DOMTextRun>
                     <DOMTextRun>
                       <characters>o</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" bold="true" letterSpacing="0.4" face="Bosch Sans" fillColor="#505050"/>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.4" bitmapSize="240" face="DIN-Light" fillColor="#505050"/>
                       </textAttrs>
                     </DOMTextRun>
                     <DOMTextRun>
                       <characters> </characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" bold="true" letterSpacing="-0.5" face="Bosch Sans" fillColor="#505050"/>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-0.5" bitmapSize="240" face="DIN-Light" fillColor="#505050"/>
                       </textAttrs>
                     </DOMTextRun>
                     <DOMTextRun>
                       <characters>$300</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" bold="true" letterSpacing="-0.5" face="Bosch Sans" fillColor="#ED1C24"/>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-0.5" bitmapSize="240" face="DIN-Light" fillColor="#ED1C24"/>
                       </textAttrs>
                     </DOMTextRun>
                     <DOMTextRun>
                       <characters>* instant rebate on any washer/dryer pair.</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" bold="true" letterSpacing="-0.5" face="Bosch Sans" fillColor="#505050"/>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-0.5" bitmapSize="240" face="DIN-Light" fillColor="#505050"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
