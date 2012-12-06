@@ -1,11 +1,11 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" width="728" height="90" frameRate="30" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" gridSpacingX="18" gridSpacingY="18" pixelSnap="true" snapAlignBorderSpacing="18" timelineHeight="278" nextSceneIdentifier="2" viewOptionsPasteBoardView="false" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <media>
-          <DOMBitmapItem name="energyLogo.jpg" itemID="48ffa092-000001b2" sourceExternalFilepath="./LIBRARY/energyLogo.jpg" sourceLastImported="1224710896" allowSmoothing="true" useImportedJPEGData="false" quality="50" href="energyLogo.jpg" bitmapDataHRef="M 15 1224712338.dat" frameRight="720" frameBottom="1000" isJPEG="true"/>
-          <DOMBitmapItem name="laundry_lb.png" itemID="48ffa092-000001b7" sourceExternalFilepath="./LIBRARY/laundry_lb.png" sourceLastImported="1224711142" allowSmoothing="true" useImportedJPEGData="false" originalCompressionType="lossless" quality="50" href="laundry_lb.png" bitmapDataHRef="M 16 1224712338.dat" frameRight="1460" frameBottom="1240"/>
-          <DOMBitmapItem name="laundry_lb_cap.jpg" itemID="48ffa092-000001c1" sourceExternalFilepath="./LIBRARY/laundry_lb_cap.jpg" sourceLastImported="1224695117" quality="50" href="laundry_lb_cap.jpg" bitmapDataHRef="M 18 1224712338.dat" frameRight="14560" frameBottom="1800" isJPEG="true"/>
-          <DOMBitmapItem name="laundry_lb_cap1.jpg" itemID="48ffa092-000001bc" sourceExternalFilepath="./LIBRARY/laundry_lb_cap1.jpg" sourceLastImported="1224694337" quality="50" href="laundry_lb_cap1.jpg" bitmapDataHRef="M 17 1224712338.dat" frameRight="58500" frameBottom="7240" isJPEG="true"/>
-          <DOMBitmapItem name="laundry_woman_lb.jpg" itemID="4901e41c-00000405" sourceExternalFilepath="./LIBRARY/laundry_woman_lb.jpg" sourceLastImported="1224860273" allowSmoothing="true" useImportedJPEGData="false" quality="33" href="laundry_woman_lb.jpg" bitmapDataHRef="M 20 1224860700.dat" frameRight="14560" frameBottom="11320" isJPEG="true"/>
-          <DOMBitmapItem name="logo.png" itemID="48ff68f6-0000000f" sourceExternalFilepath="./LIBRARY/logo.png" sourceLastImported="1224693570" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="logo.png" bitmapDataHRef="M 1 1224698102.dat" frameRight="2020" frameBottom="680"/>
+          <DOMBitmapItem name="energyLogo.jpg" itemID="48ffa092-000001b2" sourceExternalFilepath="../BOSCHlaundry_728x90_v04b/LIBRARY/energyLogo.jpg" sourceLastImported="1224710896" allowSmoothing="true" useImportedJPEGData="false" quality="50" href="energyLogo.jpg" bitmapDataHRef="M 15 1224712338.dat" frameRight="720" frameBottom="1000" isJPEG="true"/>
+          <DOMBitmapItem name="laundry_lb.png" itemID="48ffa092-000001b7" sourceExternalFilepath="../BOSCHlaundry_728x90_v04b/LIBRARY/laundry_lb.png" sourceLastImported="1224711142" allowSmoothing="true" useImportedJPEGData="false" originalCompressionType="lossless" quality="50" href="laundry_lb.png" bitmapDataHRef="M 16 1224712338.dat" frameRight="1460" frameBottom="1240"/>
+          <DOMBitmapItem name="laundry_lb_cap.jpg" itemID="48ffa092-000001c1" sourceExternalFilepath="../BOSCHlaundry_728x90_v04b/LIBRARY/laundry_lb_cap.jpg" sourceLastImported="1224695117" quality="50" href="laundry_lb_cap.jpg" bitmapDataHRef="M 18 1224712338.dat" frameRight="14560" frameBottom="1800" isJPEG="true"/>
+          <DOMBitmapItem name="laundry_lb_cap1.jpg" itemID="48ffa092-000001bc" sourceExternalFilepath="../BOSCHlaundry_728x90_v04b/LIBRARY/laundry_lb_cap1.jpg" sourceLastImported="1224694337" quality="50" href="laundry_lb_cap1.jpg" bitmapDataHRef="M 17 1224712338.dat" frameRight="58500" frameBottom="7240" isJPEG="true"/>
+          <DOMBitmapItem name="laundry_woman_lb.jpg" itemID="4901e41c-00000405" sourceExternalFilepath="../BOSCHlaundry_728x90_v04b/LIBRARY/laundry_woman_lb.jpg" sourceLastImported="1224860273" allowSmoothing="true" useImportedJPEGData="false" quality="33" href="laundry_woman_lb.jpg" bitmapDataHRef="M 20 1224860700.dat" frameRight="14560" frameBottom="11320" isJPEG="true"/>
+          <DOMBitmapItem name="logo.png" itemID="48ff68f6-0000000f" sourceExternalFilepath="../BOSCHlaundry_728x90_v04b/LIBRARY/logo.png" sourceLastImported="1224693570" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="logo.png" bitmapDataHRef="M 1 1224698102.dat" frameRight="2020" frameBottom="680"/>
      </media>
      <symbols>
           <Include href="background.xml" loadImmediate="false" itemID="4900e2df-00000300" lastModified="1224861746"/>
@@ -44,6 +44,22 @@
                               </DOMFrame>
                               <DOMFrame index="1" duration="4" name="frame1" labelType="name" keyMode="9728">
                                    <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="learnBtn" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="5" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="learnBtn" name="cta_mc" selected="true" centerPoint3DX="496.15" centerPoint3DY="50.9">
+                                             <matrix>
+                                                  <Matrix tx="455.6" ty="37.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="38.4" y="12.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
@@ -89,7 +105,7 @@
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="endframe" color="#808080" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="txt" color="#9933CC" parentLayerIndex="3" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="txt" color="#9933CC" parentLayerIndex="4" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements>
@@ -101,7 +117,7 @@
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="txt7" name="txt2_mc" selected="true" centerPoint3DX="263.75" centerPoint3DY="54.5">
+                                        <DOMSymbolInstance libraryItemName="txt7" name="txt2_mc" centerPoint3DX="263.75" centerPoint3DY="54.5">
                                              <matrix>
                                                   <Matrix a="1.00010681152344" tx="92.25" ty="46.4"/>
                                              </matrix>
@@ -113,7 +129,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="legal" color="#808080" parentLayerIndex="3" autoNamed="false">
+                    <DOMLayer name="legal" color="#808080" parentLayerIndex="4" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements>
@@ -129,23 +145,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="learnBtn" color="#4FFFFF" parentLayerIndex="3" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" duration="5" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="learnBtn" name="cta_mc" centerPoint3DX="496.15" centerPoint3DY="50.9">
-                                             <matrix>
-                                                  <Matrix tx="455.6" ty="37.9"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="38.4" y="12.1"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="logo" color="#FF4FFF" parentLayerIndex="3" autoNamed="false">
+                    <DOMLayer name="logo" color="#FF4FFF" parentLayerIndex="4" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements>
@@ -161,7 +161,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="ESLogo" color="#4FFF4F" parentLayerIndex="3" autoNamed="false">
+                    <DOMLayer name="ESLogo" color="#4FFF4F" parentLayerIndex="4" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements>
@@ -177,7 +177,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="laundry" color="#FF4F4F" parentLayerIndex="3" autoNamed="false">
+                    <DOMLayer name="laundry" color="#FF4F4F" parentLayerIndex="4" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements>
@@ -196,7 +196,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="whiteBar" color="#FFFF4F" parentLayerIndex="3" autoNamed="false" visible="false">
+                    <DOMLayer name="whiteBar" color="#FFFF4F" parentLayerIndex="4" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements>
@@ -212,14 +212,14 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="gradien" color="#4FFFFF" parentLayerIndex="3" autoNamed="false">
+                    <DOMLayer name="gradien" color="#4FFFFF" parentLayerIndex="4" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="bg" color="#4F80FF" parentLayerIndex="3" autoNamed="false">
+                    <DOMLayer name="bg" color="#4F80FF" parentLayerIndex="4" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="5" keyMode="9728">
                                    <elements/>
@@ -249,6 +249,12 @@
      </timelines>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="37238" publishTime="1354821430"/>
+          <PublishItem publishSize="37233" publishTime="1354821395"/>
+          <PublishItem publishSize="31969" publishTime="1354821388"/>
+          <PublishItem publishSize="31969" publishTime="1354821370"/>
+          <PublishItem publishSize="31969" publishTime="1354821330"/>
+          <PublishItem publishSize="37152" publishTime="1354821198"/>
           <PublishItem publishSize="37051" publishTime="1354812224"/>
           <PublishItem publishSize="40964" publishTime="1354812174"/>
           <PublishItem publishSize="37062" publishTime="1354811845"/>
@@ -263,7 +269,5 @@
           <PublishItem publishSize="37059" publishTime="1354809644"/>
           <PublishItem publishSize="31987" publishTime="1354809622"/>
           <PublishItem publishSize="36977" publishTime="1354723013"/>
-          <PublishItem publishSize="31988" publishTime="1354723002"/>
-          <PublishItem publishSize="31988" publishTime="1354722965"/>
      </publishHistory>
 </DOMDocument>

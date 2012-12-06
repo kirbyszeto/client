@@ -1,7 +1,6 @@
 ﻿package{
 	
-	import com.plusk.tweenMan;
-	import com.plusk.frameMan;
+	import com.plusk.PKBannerAd;
 	import flash.display.*;
 	import fl.transitions.easing.Regular;
 	import fl.transitions.easing.Elastic;
@@ -11,10 +10,7 @@
 	
 	import flash.utils.Dictionary;
 	
-	public class lb_shell extends MovieClip{
-		
-		public var tMan:tweenMan;
-		public var fMan:frameMan;
+	public class lb_shell extends PKBannerAd {
 		
 		public var finalframe:Array;
 		
@@ -24,16 +20,16 @@
 		public var positions:Dictionary;
 		
 		public function lb_shell(){
-			trace ("hello!");
-			tMan = tweenMan.getInstance();
-			fMan = new frameMan( this );
+			
+			super();
+			trace("hell0 lb_shell");
 			
 			positions = new Dictionary();
 			
 			finalframe = [];
 			
-			// entire ad is activated.
-			addEventListener( MouseEvent.CLICK, clickHandler );
+			
+			addCTA( cta_mc as MovieClip );
 			
 			frame_0(); // init.
 			// populate frameMan

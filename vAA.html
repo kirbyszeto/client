@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>***NEW PROJECT***</title>
+<script type="text/javascript" src="swfobject.js"></script>
+<style type="text/css">
+<!--
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#wrapper {
+}
+#head {
+	
+}
+div {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+}
+-->
+</style></head>
+
+<body onload="refreshAd();">
+
+<div id="title"></div>
+
+<div id="wrapper">big box</div>
+
+<script type="text/javascript">
+
+function refreshAd(){
+	document.getElementById('title').innerHTML = document.title;
+
+	var loc = String(document.location.search.substring(1));
+	var val = loc.split("|");
+	var _w = val[1];
+	var _h = val[2];
+	var _c = val[0];
+	var _l = val[3];
+
+	
+	var swf = new SWFObject(_c+"_"+_w+"x"+_h+"_"+_l+".swf","flashobj1",_w,_h,8);
+	swf.write("wrapper");
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
