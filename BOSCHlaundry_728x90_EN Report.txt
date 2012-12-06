@@ -3,23 +3,24 @@
 
 Frame #    Frame Bytes    Total Bytes    Scene
 -------    -----------    -----------    -----
-      1          37198          37198    Scene 1 (AS 3.0 Classes Export Frame)
-      2             13          37211    
-      3             21          37232    
-      4              1          37233    
-      5              1          37234    
+      1           8553           8553    Scene 1 (AS 3.0 Classes Export Frame)
+      2          29423          37976    
+      3              1          37977    
+      4             21          37998    
+      5              1          37999    
+      6              1          38000    
 
 Scene      Shape Bytes    Text Bytes    ActionScript Bytes
 -------    -----------    ----------    ------------------
-Scene 1              0             0                  7626
+Scene 1              0             0                  8492
 
 Symbol        Shape Bytes    Text Bytes    ActionScript Bytes
 ----------    -----------    ----------    ------------------
-background            128             0                     0
+background            127             0                     0
 ESlogo                  0             0                     0
 laundry                 0             0                     0
 learnBtn                0            74                     0
-legal                   0           324                     0
+legal                   0           323                     0
 logo                    0             0                     0
 popuptxt               34             0                     0
 Symbol 1                0             0                     0
@@ -43,18 +44,18 @@ woman                   0             0                     0
 
 Font Name    Bytes         Characters
 ---------    ----------    ----------
-DIN-Light          5793     !$*,./0238ABDEFGILMNORSTVYabcdefghilmnoprstuvwy ®»’
+DIN-Light          5773     !$*,./0238ABDEFGILMNORSTVYabcdefghilmnoprstuvwy ®»’
 
 ActionScript Bytes    Location
 ------------------    --------
-              7626    Scene 1:Frame 1
+              8492    Scene 1:Frame 1
 
 Bitmap                  Compressed    Original      Compression
 --------------------    ----------    ----------    -----------
-laundry_lb.png                1548         18104    JPEG Quality=50
-energyLogo.jpg                 719          7200    JPEG Quality=50
-logo.png                      2064         13736    Lossless
-laundry_woman_lb.jpg         17736       1648192    JPEG Quality=33
+laundry_lb.png                1542         18104    JPEG Quality=50
+energyLogo.jpg                 717          7200    JPEG Quality=50
+logo.png                      2058         13736    Lossless
+laundry_woman_lb.jpg         17676       1648192    JPEG Quality=33
 
 
 

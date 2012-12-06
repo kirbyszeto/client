@@ -5,24 +5,94 @@ package com.plusk {
 	import com.plusk.frameMan;
 	import flash.events.MouseEvent;
 	
+	import flash.external.ExternalInterface;
+	import flash.net.URLRequest;
+	import flash.net.navigateToURL;
+	
 	
 	public class PKBannerAd extends MovieClip {
 		public var tMan:tweenMan;
 		public var fMan:frameMan;
 		
 		public function PKBannerAd() {
-			trace ("hello new banner ad!");
 			tMan = tweenMan.getInstance();
 			fMan = new frameMan( this );
+			
+			addFrameScript ( 2 , init ) ;
+			
 		}
 		
-		public function addCTA( d:MovieClip ):void {
+		public function init():void {
+			trace("basic init");
+			stop();
+		}
+		
+		public function addReplayButton( d:MovieClip ):void {
 			d.buttonMode = true;
 			d.mouseChildren = false;
-			d.addEventListener( MouseEvent.CLICK, handleCTAClick );
+			d.addEventListener( MouseEvent.CLICK, doReplay );
 		}
-		private function handleCTAClick( e:MouseEvent ):void {
-			
+		function doReplay( e:MouseEvent ):void {
+			gotoAndPlay(1);
+		}
+		public function addExitButton( d:MovieClip ):void {
+			d.buttonMode = true;
+			d.mouseChildren = false;
+			d.addEventListener( MouseEvent.CLICK, doExit );
+		}
+		public function doExit( e:MouseEvent ):void {
+			trace("click");
+			var sURL:String;
+			if ((sURL = root.loaderInfo.parameters.clickTag)) {
+				openWindow(sURL);
+			}
+		}
+		private function getBrowserName():String {
+			var browser:String;
+			//Uses external interface to reach out to browser and grab browser useragent info.
+			var browserAgent:String = ExternalInterface.call("function getBrowser(){return navigator.userAgent;}");
+			//Determines brand of browser using a find index. If not found indexOf returns (-1).
+			if(browserAgent != null && browserAgent.indexOf("Firefox")>= 0) {
+				browser = "Firefox";
+			} else if(browserAgent != null && browserAgent.indexOf("Chrome")>= 0) {
+				browser = "Chrome";
+			} else if(browserAgent != null && browserAgent.indexOf("Safari")>= 0){
+				browser = "Safari";
+			} else if(browserAgent != null && browserAgent.indexOf("MSIE")>= 0){
+				browser = "IE";
+			} else if(browserAgent != null && browserAgent.indexOf("Opera")>= 0){
+				browser = "Opera";
+			} else {
+				browser = "Undefined";
+			}
+			return (browser);
+		}
+		private function openWindow(url:String, target:String = '_blank', features:String=""):void {
+			var WINDOW_OPEN_FUNCTION:String = "window.open";
+			var myURL:URLRequest = new URLRequest(url);
+			var browserName:String = getBrowserName();
+			switch (browserName) {
+				//If browser is Firefox, use ExternalInterface to call out to browser
+				//and launch window via browser's window.open method.
+				case "Firefox":
+				case "Chrome":
+					ExternalInterface.call(WINDOW_OPEN_FUNCTION, url, target, features);
+				    break;
+				//If IE,
+				case "IE":
+					ExternalInterface.call("function setWMWindow() {window.open('" + url + "', '"+target+"', '"+features+"');}");
+					break;
+				// If Safari or Opera or any other
+				/* case "Safari":
+					navigateToURL(myURL, target);
+					break;
+				case "Opera":
+					navigateToURL(myURL, target);
+					break; */
+				default:
+					navigateToURL(myURL, target);
+					break;
+			}
 		}
 	}
 	

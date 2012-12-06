@@ -20,20 +20,25 @@
 		public var positions:Dictionary;
 		
 		public function lb_shell(){
-			
 			super();
-			trace("hell0 lb_shell");
+		}
+		// init
+		public override function init():void {
+			stop();
 			
 			positions = new Dictionary();
 			
+			
+
 			finalframe = [];
 			
-			
-			addCTA( cta_mc as MovieClip );
-			
 			frame_0(); // init.
+		
+			addReplayButton( cta_mc as MovieClip );
+			addExitButton( pan_mc as MovieClip );
+			
+			
 			// populate frameMan
-			//fMan.addFrame( frame_0, 0 );
 			fMan.addFrame( frame_1, 5000 );
 			fMan.addFrame( frame_2, 3000 );
 			fMan.addFrame( frame_3, 1000 );
@@ -42,18 +47,24 @@
 			fMan.start();
 			
 			
-			stop();
 		}
 		
-		public function clickHandler( e:Event ):void {
-			trace ("clicked");
-			// exit.
-		}
+		
+		// USE IN CASE NON-STANDARD CLICKTAG IS REQUIRED
+		/* override public function doExit( e:MouseEvent ):void {
+			trace("click");
+			var sURL:String;
+			if ((sURL = root.loaderInfo.parameters.clickTag)) {
+				openWindow(sURL);
+			}
+		} */
 		
 		public function frame_0(){
 			trace ("frame 0");
 			// init image.
-			positions[pan_mc] = pan_ty; // set from timeline
+			positions[pan_mc] = 0; // set from timeline
+			
+			swapChildren( pan_mc, popuptxt_mc );
 			
 			// init popup text.
 			popuptxt_mc.scaleX = popuptxt_mc.scaleY = 0;

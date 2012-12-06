@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance libraryItemName="laundry_woman_lb.jpg"/>
+                <DOMBitmapInstance selected="true" libraryItemName="laundry_woman_lb.jpg"/>
               </elements>
             </DOMFrame>
           </frames>
