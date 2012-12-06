@@ -1,0 +1,41 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="learnBtn" itemID="48ff6dce-00000037" lastModified="1224706167">
+  <timeline>
+    <DOMTimeline name="learnBtn">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" width="77.15" height="22.1" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.00015258789063" d="0.9979248046875" tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>»</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" bold="true" letterSpacing="-0.45" size="19.8" face="Bosch Sans" fillColor="#ED1C24"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters> </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-0.45" size="13.25" face="Bosch Sans" fillColor="#505050"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Learn More</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" bold="true" letterSpacing="-0.45" size="13.25" face="Bosch Sans" fillColor="#00639F"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

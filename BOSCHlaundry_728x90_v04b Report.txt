@@ -1,0 +1,61 @@
+﻿BOSCHlaundry_728x90_v04b.swf Movie Report
+------------------------------------------
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    -----
+      1          37023          37023    Scene 1 (AS 3.0 Classes Export Frame)
+      2             13          37036    
+      3             21          37057    
+      4              1          37058    
+      5              1          37059    
+
+Scene      Shape Bytes    Text Bytes    ActionScript Bytes
+-------    -----------    ----------    ------------------
+Scene 1              0             0                  7393
+
+Symbol        Shape Bytes    Text Bytes    ActionScript Bytes
+----------    -----------    ----------    ------------------
+background            129             0                     0
+ESlogo                  0             0                     0
+laundry                 0             0                     0
+learnBtn                0            75                     0
+legal                   0           328                     0
+logo                    0             0                     0
+popuptxt               34             0                     0
+Symbol 1                0             0                     0
+Symbol 2                0             0                     0
+Symbol 21               0             0                     0
+Symbol 37               0             0                     0
+Symbol 42               0             0                     0
+txt1                    0           208                     0
+txt2                    0             0                     0
+txt3                    0             0                     0
+txt4                    0             0                     0
+txt5                    0             0                     0
+txt6                    0             0                     0
+txt7                    0           178                     0
+txt8                    0             0                     0
+txt9                    0             0                     0
+txt10                   0             0                     0
+txt11                   0            81                     0
+txt12                   0             0                     0
+woman                   0             0                     0
+
+Font Name    Bytes         Characters
+---------    ----------    ----------
+ArialMT            5583     !$*,./0238ABDEFGILMNORSTVYabcdefghilmnoprstuvwy ®»’
+
+ActionScript Bytes    Location
+------------------    --------
+              7393    Scene 1:Frame 1
+
+Bitmap                  Compressed    Original      Compression
+--------------------    ----------    ----------    -----------
+laundry_lb.png                1565         18104    JPEG Quality=50
+energyLogo.jpg                 728          7200    JPEG Quality=50
+logo.png                      2088         13736    Lossless
+laundry_woman_lb.jpg         17936       1648192    JPEG Quality=33
+
+
+
+

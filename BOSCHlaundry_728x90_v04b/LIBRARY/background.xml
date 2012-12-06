@@ -1,0 +1,85 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="background" itemID="4900e2df-00000300" lastModified="1224861746">
+  <timeline>
+    <DOMTimeline name="background">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" outline="true" current="true" isSelected="true" useOutlineView="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="2.42669677734375" d="0.3599853515625" tx="0.15" ty="0.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="150" y="125"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.23834228515625" d="0.23834228515625" tx="150" ty="125"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" alpha="0.101960784313725" ratio="0.658823529411765"/>
+                        <GradientEntry alpha="0.152941176470588" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!6000 0|6000 5000!6000 5000|0 5000!0 5000|0 0!0 0|6000 0"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="2.66255187988281" d="0.38519287109375" tx="181.2" ty="16.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="68.55" y="73.45"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.2183837890625" d="0.2183837890625" tx="68.5" ty="73.5"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" alpha="0.101960784313725" ratio="0.658823529411765"/>
+                        <GradientEntry alpha="0.152941176470588" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!4101 3780|-1361 3780!-1361 3780|-1361 -841!-1361 -841|4101 -841!4101 -841|4101 3780"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="2.42633056640625" d="1.16311645507813" tx="4.95" ty="-157.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="148" y="172.55"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#EBEBEB"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!5961 3941|-40 3941!-40 3941|-40 2961!-40 2961|5961 2961!5961 2961|5961 3941"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

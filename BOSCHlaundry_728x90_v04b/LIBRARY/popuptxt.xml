@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popuptxt" itemID="4900e316-00000304" lastModified="1224794902" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="popuptxt">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-151.5" ty="-128.5"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#00639F"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!5721 2900|340 2900!340 2900|340 2240!340 2240|5721 2240!5721 2240|5721 2900"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="txt11" selected="true">
+                  <matrix>
+                    <Matrix tx="-114.15" ty="-11.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="118.15" y="12.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="txt4" itemID="48ff8285-00000066" lastModified="1224704645">
+  <timeline>
+    <DOMTimeline name="txt4">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" width="96.15" height="15.6" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.00044250488281" tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>instant rebate on</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" bold="true" letterSpacing="-0.5" size="14" face="Bosch Sans" fillColor="#505050"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

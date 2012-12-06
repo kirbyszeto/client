@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="legal" itemID="4900e2fb-00000302" lastModified="1224794875">
+  <timeline>
+    <DOMTimeline name="legal">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" width="729" height="8.9" isSelectable="false">
+                  <matrix>
+                    <Matrix a="1.00013732910156" tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>*Offer valid until November 30, 2008. $300 on 300 series laundry pairs. $200 on all other pairs. No instant rebate on single piece purchase. See website for full details.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-0.15" size="8" face="Bosch Sans" fillColor="#747474"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
