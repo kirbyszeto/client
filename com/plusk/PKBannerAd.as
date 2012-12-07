@@ -23,7 +23,7 @@ package com.plusk {
 		}
 		
 		public function init():void {
-			trace("basic init");
+			trace("default init");
 			stop();
 		}
 		
