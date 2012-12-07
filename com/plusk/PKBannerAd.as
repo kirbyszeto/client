@@ -32,7 +32,7 @@ package com.plusk {
 			d.mouseChildren = false;
 			d.addEventListener( MouseEvent.CLICK, doReplay );
 		}
-		function doReplay( e:MouseEvent ):void {
+		public function doReplay( e:MouseEvent ):void {
 			gotoAndPlay(1);
 		}
 		public function addExitButton( d:MovieClip ):void {
@@ -48,30 +48,30 @@ package com.plusk {
 			}
 		}
 		private function getBrowserName():String {
-			var browser:String;
+			var b:String; // browser
 			//Uses external interface to reach out to browser and grab browser useragent info.
-			var browserAgent:String = ExternalInterface.call("function getBrowser(){return navigator.userAgent;}");
+			var bA:String = ExternalInterface.call("function getBrowser(){return navigator.userAgent;}"); // browser agent
 			//Determines brand of browser using a find index. If not found indexOf returns (-1).
-			if(browserAgent != null && browserAgent.indexOf("Firefox")>= 0) {
-				browser = "Firefox";
-			} else if(browserAgent != null && browserAgent.indexOf("Chrome")>= 0) {
-				browser = "Chrome";
-			} else if(browserAgent != null && browserAgent.indexOf("Safari")>= 0){
-				browser = "Safari";
-			} else if(browserAgent != null && browserAgent.indexOf("MSIE")>= 0){
-				browser = "IE";
-			} else if(browserAgent != null && browserAgent.indexOf("Opera")>= 0){
-				browser = "Opera";
+			if(bA != null && bA.indexOf("Firefox")>= 0) {
+				b = "Firefox";
+			} else if(bA != null && bA.indexOf("Chrome")>= 0) {
+				b = "Chrome";
+			} else if(bA != null && bA.indexOf("Safari")>= 0){
+				b = "Safari";
+			} else if(bA != null && bA.indexOf("MSIE")>= 0){
+				b = "IE";
+			} else if(bA != null && bA.indexOf("Opera")>= 0){
+				b = "Opera";
 			} else {
-				browser = "Undefined";
+				b = "Undefined";
 			}
-			return (browser);
+			return (b);
 		}
 		private function openWindow(url:String, target:String = '_blank', features:String=""):void {
 			var WINDOW_OPEN_FUNCTION:String = "window.open";
 			var myURL:URLRequest = new URLRequest(url);
-			var browserName:String = getBrowserName();
-			switch (browserName) {
+			var bN:String = getBrowserName(); // browser name
+			switch (bN) {
 				//If browser is Firefox, use ExternalInterface to call out to browser
 				//and launch window via browser's window.open method.
 				case "Firefox":

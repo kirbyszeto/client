@@ -22,28 +22,28 @@
     <qtDefaultName>1</qtDefaultName>
     <rnwkDefaultName>1</rnwkDefaultName>
     <swcDefaultName>1</swcDefaultName>
-    <flashFileName>BOSCHlaundry_728x90_EN.swf</flashFileName>
-    <projectorWinFileName>BOSCHlaundry_728x90_EN.exe</projectorWinFileName>
-    <projectorMacFileName>BOSCHlaundry_728x90_EN.app</projectorMacFileName>
-    <htmlFileName>BOSCHlaundry_728x90_EN.html</htmlFileName>
-    <gifFileName>BOSCHlaundry_728x90_EN.gif</gifFileName>
-    <jpegFileName>BOSCHlaundry_728x90_EN.jpg</jpegFileName>
-    <pngFileName>BOSCHlaundry_728x90_EN.png</pngFileName>
-    <qtFileName>BOSCHlaundry_728x90_EN.mov</qtFileName>
-    <rnwkFileName>BOSCHlaundry_728x90_EN.smil</rnwkFileName>
-    <swcFileName>BOSCHlaundry_728x90_EN.swc</swcFileName>
+    <flashFileName>PROJECTNAME_300x250_EN.swf</flashFileName>
+    <projectorWinFileName>PROJECTNAME_300x250_EN.exe</projectorWinFileName>
+    <projectorMacFileName>PROJECTNAME_300x250_EN.app</projectorMacFileName>
+    <htmlFileName>PROJECTNAME_300x250_EN.html</htmlFileName>
+    <gifFileName>PROJECTNAME_300x250_EN.gif</gifFileName>
+    <jpegFileName>PROJECTNAME_300x250_EN.jpg</jpegFileName>
+    <pngFileName>PROJECTNAME_300x250_EN.png</pngFileName>
+    <qtFileName>PROJECTNAME_300x250_EN.mov</qtFileName>
+    <rnwkFileName>PROJECTNAME_300x250_EN.smil</rnwkFileName>
+    <swcFileName>PROJECTNAME_300x250_EN.swc</swcFileName>
   </PublishFormatProperties>
   <PublishHtmlProperties enabled="true">
     <VersionDetectionIfAvailable>0</VersionDetectionIfAvailable>
     <VersionInfo>12,0,0,0;11,2,0,0;11,1,0,0;10,3,0,0;10,2,153,0;10,1,52,0;9,0,45,0;8,0,24,0;7,0,14,0;6,0,79,0;5,0,58,0;4,0,32,0;3,0,8,0;2,0,1,12;1,0,0,1;</VersionInfo>
     <UsingDefaultContentFilename>1</UsingDefaultContentFilename>
     <UsingDefaultAlternateFilename>1</UsingDefaultAlternateFilename>
-    <ContentFilename>BOSCHlaundry_728x90_EN.xfl_content.html</ContentFilename>
-    <AlternateFilename>BOSCHlaundry_728x90_EN.xfl_alternate.html</AlternateFilename>
+    <ContentFilename>PROJECTNAME_300x250_EN.xfl_content.html</ContentFilename>
+    <AlternateFilename>PROJECTNAME_300x250_EN.xfl_alternate.html</AlternateFilename>
     <UsingOwnAlternateFile>0</UsingOwnAlternateFile>
     <OwnAlternateFilename></OwnAlternateFilename>
-    <Width>728</Width>
-    <Height>90</Height>
+    <Width>300</Width>
+    <Height>250</Height>
     <Align>0</Align>
     <Units>0</Units>
     <Loop>1</Loop>
@@ -56,7 +56,7 @@
     <WindowMode>0</WindowMode>
     <DisplayMenu>1</DisplayMenu>
     <DeviceFont>0</DeviceFont>
-    <TemplateFileName>C:\Users\Kirby\AppData\Local\Adobe\Flash CS3\en\Configuration\HTML\Default.html</TemplateFileName>
+    <TemplateFileName>C:\Users\Kirby\AppData\Local\Adobe\Flash CS6\en_US\Configuration\HTML\Default.html</TemplateFileName>
     <showTagWarnMsg>1</showTagWarnMsg>
   </PublishHtmlProperties>
   <PublishFlashProperties enabled="true">
@@ -88,7 +88,7 @@
     <StreamUse8kSampleRate>0</StreamUse8kSampleRate>
     <EventUse8kSampleRate>0</EventUse8kSampleRate>
     <UseNetwork>0</UseNetwork>
-    <DocumentClass>lb_shell</DocumentClass>
+    <DocumentClass>bb_shell</DocumentClass>
     <AS3Strict>2</AS3Strict>
     <AS3Coach>4</AS3Coach>
     <AS3AutoDeclare>4096</AS3AutoDeclare>
@@ -131,8 +131,8 @@
     </LibraryVersions>
   </PublishFlashProperties>
   <PublishJpegProperties enabled="true">
-    <Width>728</Width>
-    <Height>90</Height>
+    <Width>300</Width>
+    <Height>250</Height>
     <Progressive>0</Progressive>
     <DPI>4718592</DPI>
     <Size>0</Size>
@@ -157,12 +157,12 @@
     <exportSMIL>1</exportSMIL>
   </PublishRNWKProperties>
   <PublishGifProperties enabled="true">
-    <Width>728</Width>
-    <Height>90</Height>
+    <Width>300</Width>
+    <Height>250</Height>
     <Animated>0</Animated>
     <MatchMovieDim>1</MatchMovieDim>
     <Loop>1</Loop>
-    <LoopCount></LoopCount>
+    <LoopCount>0</LoopCount>
     <OptimizeColors>1</OptimizeColors>
     <Interlace>0</Interlace>
     <Smooth>1</Smooth>
@@ -176,8 +176,8 @@
     <PaletteName></PaletteName>
   </PublishGifProperties>
   <PublishPNGProperties enabled="true">
-    <Width>728</Width>
-    <Height>90</Height>
+    <Width>300</Width>
+    <Height>250</Height>
     <OptimizeColors>1</OptimizeColors>
     <Interlace>0</Interlace>
     <Transparent>0</Transparent>
@@ -193,8 +193,8 @@
     <PaletteName></PaletteName>
   </PublishPNGProperties>
   <PublishQTProperties enabled="true">
-    <Width>728</Width>
-    <Height>90</Height>
+    <Width>300</Width>
+    <Height>250</Height>
     <MatchMovieDim>1</MatchMovieDim>
     <UseQTSoundCompression>0</UseQTSoundCompression>
     <AlphaOption></AlphaOption>

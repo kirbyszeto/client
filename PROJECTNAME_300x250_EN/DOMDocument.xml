@@ -1,0 +1,65 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" width="300" height="250" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" gridSpacingX="18" gridSpacingY="18" pixelSnap="true" snapAlignBorderSpacing="18" timelineHeight="278" viewAngle3D="24.2151145841386" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+     <symbols/>
+     <timelines>
+          <DOMTimeline name="Scene 1" currentFrame="1">
+               <layers>
+                    <DOMLayer name="actions" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="5" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[/*
+ALWAYS START ALL ASSETS ON FRAME 2
+PKBannerAd class has code that directs it to frame 2 to initialize.
+*/]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="5" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="guide" color="#4FFF4F" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" duration="6" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings/>
+     <publishHistory>
+          <PublishItem publishSize="4848" publishTime="1354888306"/>
+          <PublishItem publishSize="4762" publishTime="1354888279"/>
+          <PublishItem publishSize="4736" publishTime="1354888239"/>
+          <PublishItem publishSize="37973" publishTime="1354826620"/>
+          <PublishItem publishSize="38058" publishTime="1354826589"/>
+          <PublishItem publishSize="38072" publishTime="1354826566"/>
+          <PublishItem publishSize="38072" publishTime="1354826224"/>
+          <PublishItem publishSize="38055" publishTime="1354826183"/>
+          <PublishItem publishSize="38074" publishTime="1354826177"/>
+          <PublishItem publishSize="38000" publishTime="1354826103"/>
+          <PublishItem publishSize="37997" publishTime="1354826064"/>
+          <PublishItem publishSize="38020" publishTime="1354826036"/>
+          <PublishItem publishSize="38023" publishTime="1354826027"/>
+          <PublishItem publishSize="38014" publishTime="1354825985"/>
+          <PublishItem publishSize="38002" publishTime="1354825975"/>
+          <PublishItem publishSize="37998" publishTime="1354825874"/>
+          <PublishItem publishSize="37973" publishTime="1354825865"/>
+          <PublishItem publishSize="38022" publishTime="1354825833"/>
+          <PublishItem publishSize="38024" publishTime="1354825790"/>
+          <PublishItem publishSize="38008" publishTime="1354825496"/>
+     </publishHistory>
+</DOMDocument>
